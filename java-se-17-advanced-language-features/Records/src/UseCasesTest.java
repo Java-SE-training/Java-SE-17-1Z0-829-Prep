@@ -1,8 +1,8 @@
-import record.usecases.*;
-import record.valueobject.Customer2;
-import record.valueobject.EmailAddress;
-import record.valueobject.FullName;
-import record.valueobject.NickName;
+import records.usecases.*;
+import records.valueobject.Customer2;
+import records.valueobject.EmailAddress;
+import records.valueobject.FullName;
+import records.valueobject.NickName;
 
 /**
  * @PROJECT Records

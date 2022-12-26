@@ -1,4 +1,4 @@
-import record.Customer;
+import records.Customer;
 
 /**
  * @PROJECT Records

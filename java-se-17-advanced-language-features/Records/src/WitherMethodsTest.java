@@ -1,7 +1,7 @@
-import record.withermethods.Customer;
-import record.withermethods.Order;
-import record.withermethods.OrderLine;
-import record.withermethods.Product;
+import records.withermethods.Customer;
+import records.withermethods.Order;
+import records.withermethods.OrderLine;
+import records.withermethods.Product;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;

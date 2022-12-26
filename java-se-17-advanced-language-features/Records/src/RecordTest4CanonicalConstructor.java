@@ -1,7 +1,7 @@
-import record.domainobject.canonical.Customer;
-import record.domainobject.canonical.Order;
-import record.domainobject.canonical.OrderLine;
-import record.domainobject.canonical.Product;
+import records.domainobject.canonical.Customer;
+import records.domainobject.canonical.Order;
+import records.domainobject.canonical.OrderLine;
+import records.domainobject.canonical.Product;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;

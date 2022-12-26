@@ -1,9 +1,9 @@
 
 
-import record.builder.Customer;
-import record.builder.Order;
-import record.builder.OrderLine;
-import record.builder.Product;
+import records.builder.Customer;
+import records.builder.Order;
+import records.builder.OrderLine;
+import records.builder.Product;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;

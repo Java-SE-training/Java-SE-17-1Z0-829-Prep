@@ -1,4 +1,4 @@
-import record.ProductRec;
+import records.ProductRec;
 
 /**
  * @PROJECT Records
