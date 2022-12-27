@@ -31,6 +31,9 @@ public record Order(long id, Customer customer, LocalDateTime dateTime,List<Orde
     this(id, customer, dateTime, Collections.emptyList());
   }
 
+  // The builder is a mutable object that gathers values for building an immutable Order object when its {@code build()} method is called.
+  // It has a fluent interface: Its methods for gathering the values to build an Order from return {@code this}, so that they can be used in a chain of
+  // method calls that is easy to read and understand.
   public static Builder builder(){
     return new Builder();
   }
@@ -40,6 +43,8 @@ public record Order(long id, Customer customer, LocalDateTime dateTime,List<Orde
     private Customer customer;
     private LocalDateTime dateTime;
     private List<OrderLine> lines = new ArrayList<>();
+
+
 
     // That wither method will prevent us to
     // recreate a copy of lines array when we
@@ -76,7 +81,7 @@ public record Order(long id, Customer customer, LocalDateTime dateTime,List<Orde
 
 
     public Order build(){
-      return new Order(id,customer,dateTime);
+      return new Order(id,customer,dateTime,lines);
     }
 
 
