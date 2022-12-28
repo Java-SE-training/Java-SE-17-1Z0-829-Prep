@@ -34,7 +34,7 @@ public class Enclosing {
     System.out.println(number);
   }
 
-   static class Nested{
+   public static class Nested{
 
      // That variables are shadowing "number,date, amd name" variables above in Enclosing class
      private static int number = 23;
